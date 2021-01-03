@@ -20,5 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('text1/', admin.site.urls),
     path('index/',admin.sites.urls),
+    path('w/',admin.sites.urls),
     path('demo/',admin.sites.urls),
+
 ]
